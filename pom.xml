@@ -50,7 +50,7 @@
         <spring.data.solr.version>1.5.6.RELEASE</spring.data.solr.version>
         <freemarker.version>2.3.23</freemarker.version>
         <activemq.core.version>5.7.0</activemq.core.version>
-        <activemq.version>5.15.3</activemq.version>
+        <activemq.version>5.15.10</activemq.version>
         <aliyun.java.sdk.dysmsapi.version>1.0.0-SNAPSHOT</aliyun.java.sdk.dysmsapi.version>
         <cas.client.core.version>3.3.3</cas.client.core.version>
         <servlet.api.version>2.5</servlet.api.version>
