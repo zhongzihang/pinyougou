@@ -13,12 +13,7 @@ import tk.mybatis.mapper.entity.Example;
 import java.util.ArrayList;
 import java.util.List;
 
-/********
- * author:shenkunlin
- * date:2018/9/2 15:58
- * description:深圳黑马
- * version:1.0
- ******/
+
 public class SpringMapperTest {
 
     private BrandMapper brandMapper;

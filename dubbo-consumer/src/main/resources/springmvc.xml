@@ -11,22 +11,12 @@
         http://www.springframework.org/schema/mvc
         http://www.springframework.org/schema/mvc/spring-mvc.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
 
-    <!--dubbo配置-->
-    <!--注册应用-->
-    <dubbo:application name="pinyougou-manager-web" />
-
-    <!--设置客户端请求超时时间-->
-    <dubbo:consumer timeout="10000"  />
-
-    <!--注册中心-->
-    <dubbo:registry address="zookeeper://192.168.25.129:2181" />
-
-    <!--包扫描-->
-    <dubbo:annotation package="com.pinyougou.manager.controller" />
+    <!-- 包扫描 -->
+    <context:component-scan base-package="com.pinyougou.controller"/>
 
     <!--注解驱动-->
     <mvc:annotation-driven>
-        <!--使用FastJSON-->
+        <!--采用FastJSON实现JSON数据和文本数据转换-->
         <mvc:message-converters>
             <bean class="org.springframework.http.converter.StringHttpMessageConverter">
                 <constructor-arg value="UTF-8"/>
@@ -53,7 +43,7 @@
         </mvc:message-converters>
     </mvc:annotation-driven>
 
-    <!-- 包扫描 -->
-    <context:component-scan base-package="com.pinyougou.manager.controller" />
+    <!--引入dubbo-->
+    <import resource="spring-dubbo.xml" />
 
 </beans>

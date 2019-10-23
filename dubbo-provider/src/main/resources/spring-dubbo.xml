@@ -10,7 +10,7 @@
 
 
     <!--4、注册应用名字-->
-    <dubbo:application name="pinyougou-sellergoods-service" />
+    <dubbo:application name="dubbo-provider" />
 
     <!--1、指定注册地址-->
     <dubbo:registry address="zookeeper://192.168.25.129:2181" />
@@ -19,7 +19,6 @@
     <dubbo:protocol name="dubbo" port="20880" />
 
     <!--3、Dubbo包扫描-->
-    <dubbo:annotation package="com.pinyougou.sellergoods.service.impl" />
-
+    <dubbo:annotation package="com.pinyougou.service.impl" />
 
 </beans>
