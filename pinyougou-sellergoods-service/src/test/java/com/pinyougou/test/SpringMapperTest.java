@@ -61,7 +61,7 @@ public class SpringMapperTest {
      */
     @Test
     public void testDeleteByPrimaryKey(){
-        Long id=92L;
+        Long id=23L;
         brandMapper.deleteByPrimaryKey(id);
     }
 
