@@ -47,7 +47,7 @@
         <dubbo.version>2.6.1</dubbo.version>
         <netty.version>3.7.0.Final</netty.version>
         <javassist.version>3.18.1-GA</javassist.version>
-        <jackson.version>2.9.4</jackson.version>
+        <jackson.version>2.11.0</jackson.version>
         <pagehelper.version>5.1.2</pagehelper.version>
         <jackson.mapper.asl.version>1.9.13</jackson.mapper.asl.version>
         <spring.security.version>4.2.4.RELEASE</spring.security.version>
