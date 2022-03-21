@@ -44,7 +44,7 @@
         <aspectj.weaver>1.8.6</aspectj.weaver>
         <junit.version>4.12</junit.version>
         <commons-lang3.version>3.3.2</commons-lang3.version>
-        <dubbo.version>2.6.1</dubbo.version>
+        <dubbo.version>2.6.9</dubbo.version>
         <netty.version>3.7.0.Final</netty.version>
         <javassist.version>3.18.1-GA</javassist.version>
         <jackson.version>2.9.4</jackson.version>
