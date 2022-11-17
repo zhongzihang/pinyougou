@@ -50,7 +50,7 @@
         <jackson.version>2.9.4</jackson.version>
         <pagehelper.version>5.1.2</pagehelper.version>
         <jackson.mapper.asl.version>1.9.13</jackson.mapper.asl.version>
-        <spring.security.version>4.2.4.RELEASE</spring.security.version>
+        <spring.security.version>4.2.13.RELEASE</spring.security.version>
         <servlet-api.version>3.0.1</servlet-api.version>
         <jstl.version>1.2</jstl.version>
         <fastdfs.version>1.2</fastdfs.version>
